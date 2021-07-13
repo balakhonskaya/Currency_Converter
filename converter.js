@@ -1,4 +1,4 @@
-$.get('https://openexchangerates.org/api/latest.json', {app_id: 'a276aaa0a5dd4eb38d8cbe66a5fb2fe0'}, function(data) {
+$.get('https://openexchangerates.org/api/latest.json', {app_id: 'fd9c6d492d2542e9a54d46b78af5a579'}, function(data) {
   console.log("1 US Dollar equals " + data.rates.EUR + " Euro")
   var USDEUR = data.rates.EUR;
   console.log(USDEUR);
